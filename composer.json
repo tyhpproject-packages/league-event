@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/league-event",
+    "description": "Tyhp type definitions for league/event 3.0.3.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "3.0.3",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/league-event-impl": "~3.0.3.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/league-event-impl"
+        }
+    }
+}
